@@ -78,7 +78,7 @@ jobs:
             tag="${GITLAB_IMAGE_TAG}" yq e '.common*.image.tag |= env(tag)' -i values.yaml
             echo "=====after run  tag="${GITLAB_IMAGE_TAG}" yq e '.common*.image.tag |= env(tag)' -i values.yaml==== "
             yq e '.common*.image.tag' values.yaml
-
+            echo "hello world" >> test.txt
       - name: Commit to ArgoCD repo
         # if: ${{ github.ref == 'refs/heads/main' }}
         run: |
