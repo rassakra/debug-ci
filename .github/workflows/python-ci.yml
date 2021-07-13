@@ -2,7 +2,7 @@ name: dev ci
 
 env:
   APP_PROJECT_NAME: virtual-assistant
-  APP_CHART_NAME: ai-assistant-nlp
+  APP_CHART_NAME: debug-ci
   GITLAB_REGISTRY: registry.gitlab.com/target-digital-transformation/devops
   HELM_REPO_QA: https://chartmuseum.dev.meeraspace.com/
 
