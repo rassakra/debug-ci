@@ -1,0 +1,198 @@
+{"label": "FILTER", "pattern": [{"LOWER": "Above Secondary Diploma"}], "id": "degree_level"}
+{"label": "FILTER", "pattern": [{"LOWER": "Diploma"}], "id": "degree_level"}
+{"label": "FILTER", "pattern": [{"LOWER": "Vocational Diploma"}], "id": "degree_level"}
+{"label": "FILTER", "pattern": [{"LOWER": "Higher Diploma"}], "id": "degree_level"}
+{"label": "FILTER", "pattern": [{"LOWER": "(Advanced Diploma) Technical Colleges"}], "id": "degree_level"}
+{"label": "FILTER", "pattern": [{"LOWER": "Bachelor's Degree"}], "id": "degree_level"}
+{"label": "FILTER", "pattern": [{"LOWER": "Master's Degree"}], "id": "degree_level"}
+{"label": "FILTER", "pattern": [{"LOWER": "Ph.D."}], "id": "degree_level"}
+
+{"label": "FILTER", "pattern": [{"LOWER": "Visual Basic"}], "id": "key_skills"}
+{"label": "FILTER", "pattern": [{"LOWER": "SWOT Analysis"}], "id": "key_skills"}
+{"label": "FILTER", "pattern": [{"LOWER": "Develop and Test Methods to Synchronize Data"}], "id": "key_skills"}
+{"label": "FILTER", "pattern": [{"LOWER": "Mobile Applications"}], "id": "key_skills"}
+{"label": "FILTER", "pattern": [{"LOWER": "Technical Support"}], "id": "key_skills"}
+{"label": "FILTER", "pattern": [{"LOWER": "Human Resources"}], "id": "key_skills"}
+{"label": "FILTER", "pattern": [{"LOWER": "Social Media"}], "id": "key_skills"}
+{"label": "FILTER", "pattern": [{"LOWER": "Administration"}], "id": "key_skills"}
+{"label": "FILTER", "pattern": [{"LOWER": "SPSS"}], "id": "key_skills"}
+{"label": "FILTER", "pattern": [{"LOWER": "Coaching"}], "id": "key_skills"}
+{"label": "FILTER", "pattern": [{"LOWER": "SQL"}], "id": "key_skills"}
+{"label": "FILTER", "pattern": [{"LOWER": "Web Design"}], "id": "key_skills"}
+{"label": "FILTER", "pattern": [{"LOWER": "Business Storytelling"}], "id": "key_skills"}
+{"label": "FILTER", "pattern": [{"LOWER": "Presentation"}], "id": "key_skills"}
+{"label": "FILTER", "pattern": [{"LOWER": "Market Research Analyst"}], "id": "key_skills"}
+{"label": "FILTER", "pattern": [{"LOWER": "Executive"}], "id": "key_skills"}
+{"label": "FILTER", "pattern": [{"LOWER": "Microsoft Office"}], "id": "key_skills"}
+{"label": "FILTER", "pattern": [{"LOWER": "Compliance"}], "id": "key_skills"}
+{"label": "FILTER", "pattern": [{"LOWER": "Organizational Skills"}], "id": "key_skills"}
+{"label": "FILTER", "pattern": [{"LOWER": "Ongoing Improvement"}], "id": "key_skills"}
+{"label": "FILTER", "pattern": [{"LOWER": "Facilitating Meetings with Staff and Clients"}], "id": "key_skills"}
+{"label": "FILTER", "pattern": [{"LOWER": "Integrating Security Protocols with Cloud Design"}], "id": "key_skills"}
+{"label": "FILTER", "pattern": [{"LOWER": "Collaboration"}], "id": "key_skills"}
+{"label": "FILTER", "pattern": [{"LOWER": "Cyber Security"}], "id": "key_skills"}
+{"label": "FILTER", "pattern": [{"LOWER": "Scheduling"}], "id": "key_skills"}
+{"label": "FILTER", "pattern": [{"LOWER": "Analyze and Recommend Database Improvements"}], "id": "key_skills"}
+{"label": "FILTER", "pattern": [{"LOWER": "APIs"}], "id": "key_skills"}
+{"label": "FILTER", "pattern": [{"LOWER": "Negotiation"}], "id": "key_skills"}
+{"label": "FILTER", "pattern": [{"LOWER": "Devising Strategic Plans to Expand Sales"}], "id": "key_skills"}
+{"label": "FILTER", "pattern": [{"LOWER": "Analytical"}], "id": "key_skills"}
+{"label": "FILTER", "pattern": [{"LOWER": "Problem-solving"}], "id": "key_skills"}
+{"label": "FILTER", "pattern": [{"LOWER": "Business"}], "id": "key_skills"}
+{"label": "FILTER", "pattern": [{"LOWER": "Communication"}], "id": "key_skills"}
+{"label": "FILTER", "pattern": [{"LOWER": "Written Communication"}], "id": "key_skills"}
+{"label": "FILTER", "pattern": [{"LOWER": "Information and Communications Technology (ICT)"}], "id": "key_skills"}
+{"label": "FILTER", "pattern": [{"LOWER": "Nonverbal Communication"}], "id": "key_skills"}
+{"label": "FILTER", "pattern": [{"LOWER": "Verbal Communication"}], "id": "key_skills"}
+{"label": "FILTER", "pattern": [{"LOWER": "Finance"}], "id": "key_skills"}
+{"label": "FILTER", "pattern": [{"LOWER": "Management"}], "id": "key_skills"}
+{"label": "FILTER", "pattern": [{"LOWER": "Decision-Making"}], "id": "key_skills"}
+{"label": "FILTER", "pattern": [{"LOWER": "Time Management"}], "id": "key_skills"}
+{"label": "FILTER", "pattern": [{"LOWER": "Business Soft Skills"}], "id": "key_skills"}
+{"label": "FILTER", "pattern": [{"LOWER": "Analytical Skills"}], "id": "key_skills"}
+{"label": "FILTER", "pattern": [{"LOWER": "Conflict Management/ Conflict Resolution"}], "id": "key_skills"}
+{"label": "FILTER", "pattern": [{"LOWER": "Problem-Solving"}], "id": "key_skills"}
+{"label": "FILTER", "pattern": [{"LOWER": "More Business Skills"}], "id": "key_skills"}
+{"label": "FILTER", "pattern": [{"LOWER": "Content Management"}], "id": "key_skills"}
+{"label": "FILTER", "pattern": [{"LOWER": "Coding"}], "id": "key_skills"}
+{"label": "FILTER", "pattern": [{"LOWER": "Communication Skills"}], "id": "key_skills"}
+{"label": "FILTER", "pattern": [{"LOWER": "Oral Communication"}], "id": "key_skills"}
+{"label": "FILTER", "pattern": [{"LOWER": "Knowledge and Computer Networks"}], "id": "key_skills"}
+{"label": "FILTER", "pattern": [{"LOWER": "Information Management"}], "id": "key_skills"}
+{"label": "FILTER", "pattern": [{"LOWER": "Time and Project Management"}], "id": "key_skills"}
+{"label": "FILTER", "pattern": [{"LOWER": "Digital Communications"}], "id": "key_skills"}
+{"label": "FILTER", "pattern": [{"LOWER": "ICT (Information and Communications Technology"}], "id": "key_skills"}
+{"label": "FILTER", "pattern": [{"LOWER": "Data Presentation"}], "id": "key_skills"}
+{"label": "FILTER", "pattern": [{"LOWER": "Database Administration"}], "id": "key_skills"}
+{"label": "FILTER", "pattern": [{"LOWER": "Middleware and Integration Software"}], "id": "key_skills"}
+{"label": "FILTER", "pattern": [{"LOWER": "Mobile Development"}], "id": "key_skills"}
+{"label": "FILTER", "pattern": [{"LOWER": "Network and Information Security"}], "id": "key_skills"}
+{"label": "FILTER", "pattern": [{"LOWER": "Software Engineering"}], "id": "key_skills"}
+{"label": "FILTER", "pattern": [{"LOWER": "Software Management"}], "id": "key_skills"}
+{"label": "FILTER", "pattern": [{"LOWER": "Storage Systems and Management"}], "id": "key_skills"}
+{"label": "FILTER", "pattern": [{"LOWER": "Tech Support"}], "id": "key_skills"}
+{"label": "FILTER", "pattern": [{"LOWER": "UI/UX"}], "id": "key_skills"}
+{"label": "FILTER", "pattern": [{"LOWER": "User Interface Design"}], "id": "key_skills"}
+{"label": "FILTER", "pattern": [{"LOWER": "Web Architecture and Development Framework"}], "id": "key_skills"}
+{"label": "FILTER", "pattern": [{"LOWER": "More In-Demand IT Skills"}], "id": "key_skills"}
+{"label": "FILTER", "pattern": [{"LOWER": "Configuration Management"}], "id": "key_skills"}
+{"label": "FILTER", "pattern": [{"LOWER": "Project Management"}], "id": "key_skills"}
+{"label": "FILTER", "pattern": [{"LOWER": "User-Centered Design"}], "id": "key_skills"}
+
+{"label": "FILTER", "pattern": [{"LOWER": "Full Time"}], "id": "job_type"}
+{"label": "FILTER", "pattern": [{"LOWER": "Part Time"}], "id": "job_type"}
+{"label": "FILTER", "pattern": [{"LOWER": "Internship"}], "id": "job_type"}
+
+{"label": "FILTER", "pattern": [{"LOWER": "Arts, Design, Entertainment, Sports, and Media Occupations"}], "id": "industry"}
+{"label": "FILTER", "pattern": [{"LOWER": "Architecture and Engineering Occupations"}], "id": "industry"}
+{"label": "FILTER", "pattern": [{"LOWER": "Business and Financial Operations Occupations"}], "id": "industry"}
+{"label": "FILTER", "pattern": [{"LOWER": "Building and Grounds Cleaning and Maintenance Occupations"}], "id": "industry"}
+{"label": "FILTER", "pattern": [{"LOWER": "Community and Social Service Occupations"}], "id": "industry"}
+{"label": "FILTER", "pattern": [{"LOWER": "Customer Service"}], "id": "industry"}
+{"label": "FILTER", "pattern": [{"LOWER": "Computer and Mathematical Occupations"}], "id": "industry"}
+{"label": "FILTER", "pattern": [{"LOWER": "Construction and ExtrFILTER Occupations"}], "id": "industry"}
+{"label": "FILTER", "pattern": [{"LOWER": "Development & IT"}], "id": "industry"}
+{"label": "FILTER", "pattern": [{"LOWER": "Design & Creative"}], "id": "industry"}
+{"label": "FILTER", "pattern": [{"LOWER": "Education, Training, and Library Occupations"}], "id": "industry"}
+{"label": "FILTER", "pattern": [{"LOWER": "Engineering & Architecture"}], "id": "industry"}
+{"label": "FILTER", "pattern": [{"LOWER": "Finance & Accounting"}], "id": "industry"}
+{"label": "FILTER", "pattern": [{"LOWER": "Food Preparation and Serving Related Occupations"}], "id": "industry"}
+{"label": "FILTER", "pattern": [{"LOWER": "Farming, Fishing, and Forestry Occupations"}], "id": "industry"}
+{"label": "FILTER", "pattern": [{"LOWER": "Healthcare Support Occupations"}], "id": "industry"}
+{"label": "FILTER", "pattern": [{"LOWER": "Healthcare Practitioners and Technical Occupations"}], "id": "industry"}
+{"label": "FILTER", "pattern": [{"LOWER": "Installation, Maintenance, and Repair Occupations"}], "id": "industry"}
+{"label": "FILTER", "pattern": [{"LOWER": "Life, Physical, and Social Science Occupations"}], "id": "industry"}
+{"label": "FILTER", "pattern": [{"LOWER": "Legal Occupations"}], "id": "industry"}
+{"label": "FILTER", "pattern": [{"LOWER": "Legal"}], "id": "industry"}
+{"label": "FILTER", "pattern": [{"LOWER": "Military Specific Occupations"}], "id": "industry"}
+{"label": "FILTER", "pattern": [{"LOWER": "Management Occupations"}], "id": "industry"}
+{"label": "FILTER", "pattern": [{"LOWER": "Office and Administrative Support Occupations"}], "id": "industry"}
+{"label": "FILTER", "pattern": [{"LOWER": "Production Occupations"}], "id": "industry"}
+{"label": "FILTER", "pattern": [{"LOWER": "Personal Care and Service Occupations"}], "id": "industry"}
+{"label": "FILTER", "pattern": [{"LOWER": "Protective Service Occupations"}], "id": "industry"}
+{"label": "FILTER", "pattern": [{"LOWER": "Sales & Marketing"}], "id": "industry"}
+{"label": "FILTER", "pattern": [{"LOWER": "Sales and Related Occupations"}], "id": "industry"}
+{"label": "FILTER", "pattern": [{"LOWER": "Admin & Customer Support"}], "id": "industry"}
+{"label": "FILTER", "pattern": [{"LOWER": "Transportation and Material Moving Occupations"}], "id": "industry"}
+{"label": "FILTER", "pattern": [{"LOWER": "Writing & Translation"}], "id": "industry"}
+
+{"label": "FILTER", "pattern": [{"LOWER": "Internship"}], "id": "career_level"}
+{"label": "FILTER", "pattern": [{"LOWER": "Entry Level"}], "id": "career_level"}
+{"label": "FILTER", "pattern": [{"LOWER": "Associate"}], "id": "career_level"}
+{"label": "FILTER", "pattern": [{"LOWER": "Mid-Senior Level"}], "id": "career_level"}
+{"label": "FILTER", "pattern": [{"LOWER": "Director"}], "id": "career_level"}
+{"label": "FILTER", "pattern": [{"LOWER": "Executive"}], "id": "career_level"}
+
+{"label": "FILTER", "pattern": [{"LOWER": "Egyptian Arabic"}], "id": "language"}
+{"label": "FILTER", "pattern": [{"LOWER": "Gujarati"}], "id": "language"}
+{"label": "FILTER", "pattern": [{"LOWER": "Iranian Persian"}], "id": "language"}
+{"label": "FILTER", "pattern": [{"LOWER": "Bhojpuri"}], "id": "language"}
+{"label": "FILTER", "pattern": [{"LOWER": "Min Nan Chinese"}], "id": "language"}
+{"label": "FILTER", "pattern": [{"LOWER": "Hakka Chinese"}], "id": "language"}
+{"label": "FILTER", "pattern": [{"LOWER": "Jin Chinese"}], "id": "language"}
+{"label": "FILTER", "pattern": [{"LOWER": "Hausa"}], "id": "language"}
+{"label": "FILTER", "pattern": [{"LOWER": "Kannada"}], "id": "language"}
+{"label": "FILTER", "pattern": [{"LOWER": "Indonesian (Indonesian Malay)"}], "id": "language"}
+{"label": "FILTER", "pattern": [{"LOWER": "Polish"}], "id": "language"}
+{"label": "FILTER", "pattern": [{"LOWER": "Yoruba"}], "id": "language"}
+{"label": "FILTER", "pattern": [{"LOWER": "Xiang Chinese"}], "id": "language"}
+{"label": "FILTER", "pattern": [{"LOWER": "Malayalam"}], "id": "language"}
+{"label": "FILTER", "pattern": [{"LOWER": "Odia"}], "id": "language"}
+{"label": "FILTER", "pattern": [{"LOWER": "Maithili"}], "id": "language"}
+{"label": "FILTER", "pattern": [{"LOWER": "Burmese"}], "id": "language"}
+{"label": "FILTER", "pattern": [{"LOWER": "Eastern Punjabi"}], "id": "language"}
+{"label": "FILTER", "pattern": [{"LOWER": "Sunda"}], "id": "language"}
+{"label": "FILTER", "pattern": [{"LOWER": "Sudanese Arabic"}], "id": "language"}
+{"label": "FILTER", "pattern": [{"LOWER": "Algerian Arabic"}], "id": "language"}
+{"label": "FILTER", "pattern": [{"LOWER": "Moroccan Arabic"}], "id": "language"}
+{"label": "FILTER", "pattern": [{"LOWER": "Ukrainian"}], "id": "language"}
+{"label": "FILTER", "pattern": [{"LOWER": "Igbo"}], "id": "language"}
+{"label": "FILTER", "pattern": [{"LOWER": "Northern Uzbek"}], "id": "language"}
+{"label": "FILTER", "pattern": [{"LOWER": "Sindhi"}], "id": "language"}
+{"label": "FILTER", "pattern": [{"LOWER": "North Levantine Arabic"}], "id": "language"}
+{"label": "FILTER", "pattern": [{"LOWER": "Romanian"}], "id": "language"}
+{"label": "FILTER", "pattern": [{"LOWER": "Tagalog"}], "id": "language"}
+{"label": "FILTER", "pattern": [{"LOWER": "Dutch"}], "id": "language"}
+{"label": "FILTER", "pattern": [{"LOWER": "Saʽidi Arabic"}], "id": "language"}
+{"label": "FILTER", "pattern": [{"LOWER": "Gan Chinese"}], "id": "language"}
+{"label": "FILTER", "pattern": [{"LOWER": "Amharic"}], "id": "language"}
+{"label": "FILTER", "pattern": [{"LOWER": "Northern Pashto"}], "id": "language"}
+{"label": "FILTER", "pattern": [{"LOWER": "Magahi"}], "id": "language"}
+{"label": "FILTER", "pattern": [{"LOWER": "Thai"}], "id": "language"}
+{"label": "FILTER", "pattern": [{"LOWER": "Saraiki"}], "id": "language"}
+{"label": "FILTER", "pattern": [{"LOWER": "Khmer"}], "id": "language"}
+{"label": "FILTER", "pattern": [{"LOWER": "Chhattisgarhi"}], "id": "language"}
+{"label": "FILTER", "pattern": [{"LOWER": "Somali"}], "id": "language"}
+{"label": "FILTER", "pattern": [{"LOWER": "Malaysian (Malaysian Malay)"}], "id": "language"}
+{"label": "FILTER", "pattern": [{"LOWER": "Cebuano"}], "id": "language"}
+{"label": "FILTER", "pattern": [{"LOWER": "Nepali"}], "id": "language"}
+{"label": "FILTER", "pattern": [{"LOWER": "Mesopotamian Arabic"}], "id": "language"}
+{"label": "FILTER", "pattern": [{"LOWER": "Assamese"}], "id": "language"}
+{"label": "FILTER", "pattern": [{"LOWER": "Sinhalese"}], "id": "language"}
+{"label": "FILTER", "pattern": [{"LOWER": "Northern Kurdish"}], "id": "language"}
+{"label": "FILTER", "pattern": [{"LOWER": "Hejazi Arabic"}], "id": "language"}
+{"label": "FILTER", "pattern": [{"LOWER": "Nigerian Fulfulde"}], "id": "language"}
+{"label": "FILTER", "pattern": [{"LOWER": "Bavarian"}], "id": "language"}
+{"label": "FILTER", "pattern": [{"LOWER": "South Azerbaijani"}], "id": "language"}
+{"label": "FILTER", "pattern": [{"LOWER": "Greek"}], "id": "language"}
+{"label": "FILTER", "pattern": [{"LOWER": "Chittagonian"}], "id": "language"}
+{"label": "FILTER", "pattern": [{"LOWER": "Kazakh"}], "id": "language"}
+{"label": "FILTER", "pattern": [{"LOWER": "Deccan"}], "id": "language"}
+{"label": "FILTER", "pattern": [{"LOWER": "Hungarian"}], "id": "language"}
+{"label": "FILTER", "pattern": [{"LOWER": "Kinyarwanda"}], "id": "language"}
+{"label": "FILTER", "pattern": [{"LOWER": "Zulu"}], "id": "language"}
+{"label": "FILTER", "pattern": [{"LOWER": "South Levantine Arabic"}], "id": "language"}
+{"label": "FILTER", "pattern": [{"LOWER": "Tunisian Arabic"}], "id": "language"}
+{"label": "FILTER", "pattern": [{"LOWER": "Sanaani Spoken Arabic"}], "id": "language"}
+{"label": "FILTER", "pattern": [{"LOWER": "Min Bei Chinese"}], "id": "language"}
+{"label": "FILTER", "pattern": [{"LOWER": "Southern Pashto"}], "id": "language"}
+{"label": "FILTER", "pattern": [{"LOWER": "Rundi"}], "id": "language"}
+{"label": "FILTER", "pattern": [{"LOWER": "Czech"}], "id": "language"}
+{"label": "FILTER", "pattern": [{"LOWER": "Taʽizzi-Adeni Arabic"}], "id": "language"}
+{"label": "FILTER", "pattern": [{"LOWER": "Uyghur"}], "id": "language"}
+{"label": "FILTER", "pattern": [{"LOWER": "Min Dong Chinese"}], "id": "language"}
+{"label": "FILTER", "pattern": [{"LOWER": "Sylheti"}], "id": "language"}
+{"label": "FILTER", "pattern": [{"LOWER": "Standard Arabic"}], "id": "language"}
+{"label": "FILTER", "pattern": [{"LOWER": "Urdu"}], "id": "language"}
+{"label": "FILTER", "pattern": [{"LOWER": "Indonesian"}], "id": "language"}
+{"label": "FILTER", "pattern": [{"LOWER": "Standard German"}], "id": "language"}

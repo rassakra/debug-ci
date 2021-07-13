@@ -1,0 +1,12 @@
+{"label": "ACTION", "pattern": [{"LOWER": "meeting"}], "id": "meeting"}
+{"label": "ACTION", "pattern": [{"LOWER": "meet"}], "id": "meeting"}
+{"label": "ACTION", "pattern": "?", "id": "question"}
+{"label": "ACTION", "pattern": [{"LOWER": "action"}], "id": "action_point"}
+{"label": "ACTION", "pattern": [{"TEXT": {"REGEX": "\\d\\..*$"}}], "id": "action_point"}
+{"label": "RV", "pattern": [{"DEP": "ROOT"}, {"DEP": "VERB"}], "id": "action_point"}
+{"label": "PERSON", "pattern": [{"TEXT": {"REGEX": "@[a-zA-Z]*"}}], "id": "person"}
+{"label": "AC", "pattern": [{"DEP": {"IN": ["nsubj"]}},{"POS": {"IN": ["ADV", "ADP", "AUX"]}, "OP": "?"},{"DEP": {"IN": ["conj", "ROOT", "aux"]}},{"POS": {"IN": ["DET","PRON", "ADP", "PART", "VERB", "NOUN"]}, "OP":"?"},{"DEP": {"IN": ["dobj", "pobj", "xcomp"]}}], "id": "action_point"}
+{"label": "AR", "pattern": [{"DEP": {"IN": ["conj", "ROOT", "aux"]}}, {"POS": {"IN": ["DET","PRON", "ADJ", "ADP", "PART"]}, "OP":"?"}, {"DEP": {"IN": ["dobj", "pobj"]}}], "id": "action_point"}
+{"label": "ARC", "pattern": [{"DEP": {"IN": ["conj", "ROOT", "aux"]}},  {"DEP": "compound", "OP": "+"}, {"DEP": {"IN": ["dobj", "pobj"]}}], "id": "action_point"}
+{"label": "AP", "pattern": [{"DEP": {"IN": ["csubj", "dobj", "conj", "pobj"]}, "OP":"?"}, {"POS": {"IN": ["DET","PRON"]}, "OP":"?"}, {"DEP": "ROOT", "OP":"?"}, {"DEP": {"IN": ["pcomp", "pobj", "dobj", "xcomp", "prep", "relcl"]}}, {"DEP": {"IN": ["nsubj", "dobj", "pobj", "conj", "amod"]}, "OP":"+"}, {"POS": {"IN": ["ADP", "CCONJ"]}, "OP":"?"}, {"DEP": {"IN": ["pobj", "conj"]}, "OP":"+"}, {"POS": {"IN": ["ADP", "CCONJ"]}, "OP":"?"}, {"DEP": {"IN": ["nsubj", "dobj", "pobj", "conj", "amod"]}, "OP":"?"}], "id": "action_point"}
+{"label": "APC", "pattern": [{"POS": "NOUN", "OP": "+"}, {"DEP": {"IN": ["csubj", "dobj", "conj", "pobj"]}, "OP":"?"}, {"POS": {"IN": ["DET","PRON"]}, "OP":"?"}, {"DEP": "ROOT", "OP":"?"}, {"DEP": {"IN": ["pcomp", "pobj", "dobj", "xcomp", "prep", "relcl"]}}, {"DEP": {"IN": ["nsubj", "dobj", "pobj", "conj", "amod"]}, "OP":"+"}, {"POS": {"IN": ["ADP", "CCONJ"]}, "OP":"?"}, {"DEP": {"IN": ["pobj", "conj"]}, "OP":"+"}, {"POS": {"IN": ["ADP", "CCONJ"]}, "OP":"?"}, {"DEP": {"IN": ["nsubj", "dobj", "pobj", "conj", "amod"]}, "OP":"?"}], "id": "action_point"}

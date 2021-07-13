@@ -1,0 +1,164 @@
+global:
+  nsPrefix: dev-meeraspace
+  baseUrl: dev.meeraspace.com
+  gateway: default/gateway
+  hostPrefix:
+  hostSuffix:
+servicemonitor:
+  enabled: false
+  endpoints:
+    - port: metrics
+      path: /_metrics
+  namespaceSelector:
+    matchNames:
+      - $nsPrefix-CHANGEME
+  selector:
+    matchLabels:
+      app: CHANGEME_APPNAME
+istio:
+  virtualservice:
+    enabled: false
+    host: CHANGME1
+    extra_host:
+    http:
+      - match:
+          - uri:
+              prefix: /CHANGEME
+        route:
+          - destination:
+              host: CHANGEME
+              port:
+                number: CHANGEME
+  virtualserviceGrpcMtls:
+    enabled: false
+  virtualserviceGrpc:
+    enabled: false
+  envoyfilter:
+    enabled: false
+sharedConfigmap:
+  enabled: false
+  configurationEnv:
+    cm-key-1: cm-value-1
+    KEY1: configurationEnv-VALUE1
+  configurationFiles:
+    config.yaml: |
+      key: type your config here
+    ca-chain.cert.pem: |
+      skjawjihjsauireklfsaiohddaksl
+common:
+  enabled: true
+  nameOverride: ai-assistant
+  envs:
+    enabled: false
+  istio:
+    virtualservice:
+      enabled: true
+      host: assistant
+      extra_host:
+      http:
+        - match:
+            - uri:
+                prefix: /api
+          route:
+            - destination:
+                host: ai-assistant-nlp
+                port:
+                  number: 5001 # external Port
+  replicaCount: 1
+  image:
+    repository: radhouen #Github registry
+    tag: latest
+    pullPolicy: IfNotPresent
+    # pullPolicy: Always
+    ports:
+      - name: http
+        containerPort: 5001 # Internal Port
+        protocol: TCP
+    # - name: metrics
+    #   containerPort: 7070
+    #   protocol: TCP
+    # - name: http2
+    #   containerPort: LISTEN_PORT
+    #   protocol: TCP
+    # - name: metrics
+    #   containerPort: 7070
+    #   protocol: TCP
+    extraCommand: []
+    # - arg1
+    # - arg2
+
+    ## Parameters applied to a particular environment
+    optionalCommand: []
+    ## Predefined global variables `comfigmap-envvars.yaml`，import the container by envFrom: - configMapRef:
+    envFromConfigMap:
+      enabled: false
+    ## ExtraEnv has the highest priority when there are multiple repeating envs
+    extraEnv: {}
+    # KEY1: VALUE1
+    ## Parameters applied to a particular environment
+    optionalEnv: {}
+    # KEY1: VALUE1
+
+    extraENVRulehandled: {}
+    # KEY2: VALUE2
+  service:
+    type: ClusterIP
+    ports:
+      - port: 5001
+        name: http
+        targetPort: 5001
+        # - port: 7070
+        #   name: metrics
+        #   targetPort: 7070
+  volumeMounts:
+    ## If true,  Pod volumes to mount into the container's filesystem
+    enabled: false
+    # volumeMounts:
+    # - name: configmap
+    #   mountPath: /usr/local/config
+    # - name: configmap
+    #   mountPath: /along
+    #   subPath: config.yaml
+    # - name: configmap
+    #   mountPath: /along2
+    #   subPath: ca-chain.cert.pem
+  volumes:
+    useconfigmap:
+      enabled: false
+    volumes:
+    # - name: datadir
+    #   emptyDir: {}
+    #   volumes:
+    # - name: data
+    #   persistentVolumeClaim:
+    #     claimName: reach-nominatim-pvc
+  livenessProbe:
+  readinessProbe:
+  resources: {}
+  ##  ref https://kubernetes.io/docs/concepts/configuration/pod-priority-preemption/
+  priorityClassName:
+
+# tolerations:
+# - key: allowspot
+#   operator: Equal
+#   value: "true"
+# 单实例分配到spot,多实例只有一个分配到spot
+# affinity:
+#   nodeAffinity:
+#     preferredDuringSchedulingIgnoredDuringExecution:
+#     - weight: 1
+#       preference:
+#         matchExpressions:
+#         - key: node
+#           operator: In  #Try to deploy to the SPOT node
+#           values:
+#           - spot
+#   podAntiAffinity:
+#     requiredDuringSchedulingIgnoredDuringExecution:
+#     - labelSelector:
+#         matchExpressions:
+#         - key: app
+#           operator: In
+#           values:
+#           - CHANGEME_APPNAME
+#       topologyKey: "kubernetes.io/hostname"
